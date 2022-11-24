@@ -4,61 +4,49 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="./images/favicon.ico">
-	<title>ポートフォリオサイト</title>
+	<title>WeatherApp</title>
 	<!-- CSS -->
 	<link rel="stylesheet" href="./css/custom.css">
 </head>
-
-
 <body>
+	<h1>WeatherApp</h1>
+	<p>
+		提出期限:11月28日(月)
+	</p>
 
+<div class="tennkiyohou">
 
-	<div id="container">
-
-		<h1>ポートフォリオサイト</h1>
-
-
-
-
-		<ul class="gnav">
-			<li>
-				<a href="">一覧</a>
-				<ul>
-					<li><a href="">仮面ライダー</a></li>
-					<li><a href="">arduino</a></li>
-					<li><a href="">ライダーマスク</a></li>
-					<li><a href="">電子工作</a></li>
-				</ul>
-			</li>
-			<li><a href="">塗装</a></li>
-			<li><a href="">プラモ</a></li>
-		
-		</ul>
-
-
-		<p>
-			作ったものを載せてあります。<br>
-			暇つぶしくらいにはなると思うのでぜひ見ていってください！
-		</p>
-
+	<!-- 美濃地方 -->
+	<ul>
+<li>
+	
+	<div class="mino">
+		<h1 id="basho1"></h1>
+		<!-- ここに画像を入れる -->
 		<ul>
-			<li><a href="./page_1.html">ポンだし</a></li>
-			<li><a href="./portfolios/00_jq_howler/page_1.html">ゼロワンドライバー　機能追加</zerowanndoraiba-></a></li>
-			<li><a href="./portfolios/00_jq_howler/index.html">リバイスドライバー　塗装＋改造</a></li>
-			<li><a href="./portfolios/00_jq_howler/index.html">聖剣ソードライバーBGM改造</a></li>
+			<li id="mino_saikou"></li>
 		</ul>
-
-		<h2>Gist</h2>
-		<ul>
-			<li><a href="https://gist.github.com/mumenrider21/ee
-				b47110418dcdace14b75fcad4078ff">リンク</a></li>
-		</ul>
-
+		<p></p>
 	</div>
+</li>
 
+<li>
+	<!-- 飛騨地方 -->
+	<div class="hida">
+		<h1 id="basho2"></h1>
+		<!-- ここに画像を入れる -->
+		<ul>
+			<li id="hida_saikou"></li>
+		</ul>
+		<p></p>
+	</div>
+</li>
+</ul>
+
+</div>
 	<!-- JavaScript -->
+	<script src="//cdn.jsdelivr.net/npm/axios@0.21.1/dist/axios.min.js"></script>
 	<script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
-	<script src="//cdn.jsdelivr.net/npm/howler@2.2.3/dist/howler.js"></script>
 	<script src="./main.js"></script>
 </body>
 </html>
